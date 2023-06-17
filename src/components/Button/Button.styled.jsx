@@ -1,10 +1,6 @@
 import styled from 'styled-components';
 
 export const Btn = styled.button`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   margin: 0 auto;
   margin-bottom: ${props => props.theme.space[4]}px;
   padding-right: ${props => props.theme.space[4]}px;
@@ -15,9 +11,7 @@ export const Btn = styled.button`
   border: none;
   border-radius: ${props => props.theme.radii.normal};
 
-  font-size: ${props => props.theme.fontSizes.m}
-  color: ${props => props.theme.colors.white};
-
+  color: white;
   background-color: ${props => props.theme.colors.secondary};
   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
     0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);

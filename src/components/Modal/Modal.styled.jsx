@@ -15,17 +15,7 @@ export const ModalContent = styled.div`
   left: 50%;
   transform: translate(-50%, -50%);
 
-  padding-right: ${props => props.theme.space[2]}px;
-  padding-left: ${props => props.theme.space[2]}px;
-  padding-top: ${props => props.theme.space[2]}px;
-  padding-bottom: ${props => props.theme.space[2]}px;
-
-  // max-width: calc(100vw - 48px);
-  // min-height: calc(100vh - 24px);
   width: 65vw;
-  height: 650px;
-
-  background-color: #fffbe6;
 
   border-radius: 3px;
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),

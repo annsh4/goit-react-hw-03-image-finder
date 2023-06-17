@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const List = styled.ul`
+  position: absoulute;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   grid-gap: 20px;
@@ -8,7 +9,6 @@ export const List = styled.ul`
 
   max-width: calc(100vw - 48px);
 
-  margin: 1vh auto;
   padding-right: ${props => props.theme.space[4]}px;
   padding-left: ${props => props.theme.space[4]}px;
   padding-top: ${props => props.theme.space[3]}px;
